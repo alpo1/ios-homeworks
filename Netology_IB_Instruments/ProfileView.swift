@@ -9,12 +9,10 @@ import UIKit
 
 class ProfileView: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
+    @IBOutlet weak var photo: UIImageView!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var birthdayLabel: UILabel!
+    @IBOutlet weak var cityLabel: UILabel!
 }
