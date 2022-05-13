@@ -13,6 +13,10 @@
 		D93CF2752829389F0041F516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93CF2732829389F0041F516 /* Main.storyboard */; };
 		D93CF277282938A00041F516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93CF276282938A00041F516 /* Assets.xcassets */; };
 		D93CF27A282938A00041F516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93CF278282938A00041F516 /* LaunchScreen.storyboard */; };
+		D93CF28828293AEE0041F516 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93CF28728293AEE0041F516 /* ProfileView.xib */; };
+		D93CF28C28293FEC0041F516 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF28B28293FEC0041F516 /* ProfileView.swift */; };
+		D97B7CA6282E033A00ED975F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97B7CA5282E033A00ED975F /* Profile.storyboard */; };
+		D97B7CAA282E074200ED975F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97B7CA9282E074200ED975F /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,12 @@
 		D93CF276282938A00041F516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93CF279282938A00041F516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D93CF27B282938A00041F516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93CF281282939CB0041F516 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		D93CF282282939CC0041F516 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D93CF28728293AEE0041F516 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		D93CF28B28293FEC0041F516 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D97B7CA5282E033A00ED975F /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		D97B7CA9282E074200ED975F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,14 @@
 				D93CF26D2829389F0041F516 /* AppDelegate.swift */,
 				D93CF26F2829389F0041F516 /* SceneDelegate.swift */,
 				D93CF2712829389F0041F516 /* ViewController.swift */,
+				D93CF28B28293FEC0041F516 /* ProfileView.swift */,
+				D93CF28728293AEE0041F516 /* ProfileView.xib */,
 				D93CF2732829389F0041F516 /* Main.storyboard */,
 				D93CF276282938A00041F516 /* Assets.xcassets */,
 				D93CF278282938A00041F516 /* LaunchScreen.storyboard */,
 				D93CF27B282938A00041F516 /* Info.plist */,
+				D97B7CA5282E033A00ED975F /* Profile.storyboard */,
+				D97B7CA9282E074200ED975F /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -109,6 +123,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = D93CF2612829389F0041F516;
 			productRefGroup = D93CF26B2829389F0041F516 /* Products */;
@@ -125,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93CF28828293AEE0041F516 /* ProfileView.xib in Resources */,
 				D93CF27A282938A00041F516 /* LaunchScreen.storyboard in Resources */,
+				D97B7CA6282E033A00ED975F /* Profile.storyboard in Resources */,
 				D93CF277282938A00041F516 /* Assets.xcassets in Resources */,
 				D93CF2752829389F0041F516 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93CF28C28293FEC0041F516 /* ProfileView.swift in Sources */,
 				D93CF2722829389F0041F516 /* ViewController.swift in Sources */,
+				D97B7CAA282E074200ED975F /* ProfileViewController.swift in Sources */,
 				D93CF26E2829389F0041F516 /* AppDelegate.swift in Sources */,
 				D93CF2702829389F0041F516 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,6 +170,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D93CF2742829389F0041F516 /* Base */,
+				D93CF281282939CB0041F516 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +179,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D93CF279282938A00041F516 /* Base */,
+				D93CF282282939CC0041F516 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +191,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -216,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -270,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +315,11 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +329,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +345,11 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +359,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
